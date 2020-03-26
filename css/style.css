@@ -1,0 +1,42 @@
+
+:root{
+    --color-white: #ffffff;
+    --color-bleue: #00ff9d;
+    --color-violet: #ca0dab;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif
+}
+
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/****************************button*************************/
+/***********************************************************************/
+
+.btn{
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border: 1px solid var(--color-violet);
+    color: var(--color-violet);
+}
