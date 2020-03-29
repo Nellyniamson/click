@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="body2">
+<body >
      <!--BOUTON centré-->
-    <div class="body">
-        <div class="container">
-            <button class="btn" onclick="changeColor('yellow');">APPUYER ICI</button>
+        <div class="container ">
+            <button class="btn ">APPUYER ICI</button>
         </div>
-    </div>
-    </div>
 
-        <script>
-            function
-            changeColor(color){
-                document.body.style.background=color;
-            }
+        <script type="text/javascript">
+            let color =["yellow","red","green","orange","violet","pink","aliceblue","blue"]
+            let i=0;
+            document.querySelector("button").addEventListener("click",
+            function(){
+                i=i < color.length ? ++i : 0;
+                document.querySelector("body").style.background = color[i]
+            })
         </script>
 
      <!--my script-->
